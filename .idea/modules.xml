@@ -6,8 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/als-build.iml" filepath="$PROJECT_DIR$/.idea/modules/als-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/args.iml" filepath="$PROJECT_DIR$/.idea/modules/args.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/args-build.iml" filepath="$PROJECT_DIR$/.idea/modules/args-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image2arff.iml" filepath="$PROJECT_DIR$/.idea/modules/image2arff.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/image2arff-build.iml" filepath="$PROJECT_DIR$/.idea/modules/image2arff-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knowledge-boundary.iml" filepath="$PROJECT_DIR$/.idea/modules/knowledge-boundary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knowledge-boundary-build.iml" filepath="$PROJECT_DIR$/.idea/modules/knowledge-boundary-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mls.iml" filepath="$PROJECT_DIR$/.idea/modules/mls.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mls-build.iml" filepath="$PROJECT_DIR$/.idea/modules/mls-build.iml" />
     </modules>

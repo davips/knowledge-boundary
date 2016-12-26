@@ -8,6 +8,12 @@
         <option name="jdk" value="1.8" />
         <option name="modules">
           <set>
+            <option value="$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args" />
+            <option value="$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/project" />
+            <option value="$USER_HOME$/.sbt/0.13/staging/a2f35764af87f70e3317/mls" />
+            <option value="$USER_HOME$/.sbt/0.13/staging/a2f35764af87f70e3317/mls/project" />
+            <option value="$USER_HOME$/.sbt/0.13/staging/bfbe0d5f6be5b9b51037/active-learning-scala" />
+            <option value="$USER_HOME$/.sbt/0.13/staging/bfbe0d5f6be5b9b51037/active-learning-scala/project" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/project" />
           </set>
