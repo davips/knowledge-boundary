@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="args" external.linked.project.path="$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/scala-2.12/classes" />
+    <output-test url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/scala-2.12/test-classes" />
+    <exclude-output />
+    <content url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args">
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/main/scala-2.12" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/scala-2.12/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/test/scala-2.12" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/scala-2.12/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/scala-2.12/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/scala-2.12/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/resolution-cache" />
+      <excludeFolder url="file://$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/streams" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
