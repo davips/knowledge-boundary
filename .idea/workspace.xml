@@ -2,41 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9cd62ed-7793-4179-b8eb-4937a0e6d66f" name="Default" comment="1st">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/als-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/als.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/args-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/args.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/image2arff-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/image2arff.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/mls-build.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/mls.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sbt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/MyBuild.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/Main.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/resolution-cache/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/target/streams/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/a2f35764af87f70e3317/mls/target/resolution-cache/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/a2f35764af87f70e3317/mls/target/scala-2.11/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/a2f35764af87f70e3317/mls/target/streams/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/bfbe0d5f6be5b9b51037/active-learning-scala/target/" />
-    <ignored path="$PROJECT_DIR$/target/resolution-cache/" />
-    <ignored path="$PROJECT_DIR$/target/streams/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/project/project/target/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/9ca14c93677a68d64e6f/args/project/target/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/a2f35764af87f70e3317/mls/project/project/target/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/a2f35764af87f70e3317/mls/project/target/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/bfbe0d5f6be5b9b51037/active-learning-scala/project/project/target/" />
-    <ignored path="$USER_HOME$/.sbt/0.13/staging/bfbe0d5f6be5b9b51037/active-learning-scala/project/target/" />
-    <ignored path="$PROJECT_DIR$/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/project/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +15,12 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$">
-      <ProjectState />
-    </projectState>
-  </component>
   <component name="ExternalProjectsManager">
     <system id="SBT">
       <state>
         <projects_view />
       </state>
     </system>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -100,10 +60,6 @@
       <pane id="Scratches" />
       <pane id="ProjectPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="/usr/lib/jvm/java-8-oracle/bin/jvisualvm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -257,13 +213,6 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="d9cd62ed-7793-4179-b8eb-4937a0e6d66f" name="Default" comment="" />
-      <created>1482787966513</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1482787966513</updated>
-    </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -307,10 +256,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1st" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
