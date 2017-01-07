@@ -5,8 +5,13 @@ import ml.classifiers.RF
 object Main extends Arg {
   def run(): Unit = {
     val l = RF()
-    val patts = reweighted(Ds("fig.gif", readOnly = true).patterns)
-    patts foreach (p => println(p.toStrWeighted))
+    val pattsTr = reweighted(Ds("fig.gif", readOnly = true).patterns)
+    val m = l.build(pattsTr)
+    val pattsTs = Ds("fig2.gif", readOnly = true).patterns
+    pattsTs foreach { p =>
+      val d = m.distribution(p).sorted.reverse
+      println(d(0) - d(1))
+    }
   }
 
   /**
