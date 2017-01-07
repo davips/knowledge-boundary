@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="SBT 1" modules="image2arff,args,args,knowledge-boundary" />
+    <profile name="SBT 1" modules="image2arff,args,args,knowledge-boundary">
+      <option name="postfixOps" value="true" />
+    </profile>
     <profile name="SBT 2" modules="mls">
       <option name="reflectiveCalls" value="true" />
       <option name="deprecationWarnings" value="true" />
