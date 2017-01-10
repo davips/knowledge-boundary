@@ -4,6 +4,15 @@ import traits.Arg
 import util.Datasets
 
 object Main extends Arg with RHeatMap {
+  lazy val formats = Seq(
+    "color=blue,mark=triangle,mark options={solid, scale=1.5, ultra thick}",
+    "color=white,mark=o,mark options={solid, scale=1.5, ultra thick}",
+    "color=black,mark=text, text mark=\\bf{?}, mark options={solid, scale=1, ultra thick}",
+    "color=violet,mark=star,mark options={solid, scale=1.5, ultra thick}"
+  )
+
+  run()
+
   def run(): Unit = {
     val (patts, testSet) = Ds("fig.gif", readOnly = true).patterns -> Ds("fig2.gif", readOnly = true).patterns
     if (patts.head.nclasses != testSet.head.nclasses) sys.error("Training and testing sets have different number of classes.")
@@ -15,7 +24,7 @@ object Main extends Arg with RHeatMap {
     val max = (d: Array[Double]) => d.sorted.reverse(0)
     val margin = (d: Array[Double]) => 1 - (d.sorted.reverse(0) - d.sorted.reverse(1))
 
-    val symbs = patts.groupBy(_.label).values.zip(Seq("color=blue,mark=triangle", "color=white,mark=o", "color=black,mark=star", "color=green,mark=square")).toList
+    val symbs = patts.groupBy(_.label).values.zip(formats).toList
     Seq(
       ("certainty", labeled, max)
       //      , ("ignorance", pattsIg, first)
@@ -23,7 +32,4 @@ object Main extends Arg with RHeatMap {
       //      , ("knowledge-boundary", pattsIg, margin)
     ) foreach { case (name, set, f) => MLP().build(set).heatmap(name, testSet, f, symbs) }
   }
-
-
-  run()
 }
