@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/de.bwaldvogel/liblinear/jars/liblinear-1.95.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/de.bwaldvogel/liblinear/docs/liblinear-1.95-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.ivy2/cache/de.bwaldvogel/liblinear/srcs/liblinear-1.95-sources.jar!/" />
     </SOURCES>

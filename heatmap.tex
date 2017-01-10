@@ -1,0 +1,11 @@
+\documentclass[border=1pt]{standalone}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\pgfplotsset{compat=newest}
+\begin{document}
+\begin{tikzpicture}
+\begin{axis}[view={0}{90}, axis lines=none]
+    \addplot3[surf, mesh/rows=68, shader=flat] file[skip first] {/run/shm/knowledge-boundary.csv};
+\end{axis}
+\end{tikzpicture}
+\end{document}

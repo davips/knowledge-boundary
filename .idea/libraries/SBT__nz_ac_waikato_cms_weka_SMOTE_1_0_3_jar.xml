@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/nz.ac.waikato.cms.weka/SMOTE/jars/SMOTE-1.0.3.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/nz.ac.waikato.cms.weka/SMOTE/docs/SMOTE-1.0.3-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.ivy2/cache/nz.ac.waikato.cms.weka/SMOTE/srcs/SMOTE-1.0.3-sources.jar!/" />
     </SOURCES>

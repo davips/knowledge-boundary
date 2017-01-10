@@ -3,9 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.ivy2/cache/tw.edu.ntu.csie/libsvm/jars/libsvm-3.17.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/.ivy2/cache/tw.edu.ntu.csie/libsvm/docs/libsvm-3.17-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.ivy2/cache/tw.edu.ntu.csie/libsvm/srcs/libsvm-3.17-sources.jar!/" />
     </SOURCES>
