@@ -15,13 +15,15 @@ object Main extends Arg with RHeatMap {
     val max = (d: Array[Double]) => d.sorted.reverse(0)
     val margin = (d: Array[Double]) => 1 - (d.sorted.reverse(0) - d.sorted.reverse(1))
 
+    val symbs = patts.groupBy(_.label).values.zip(Seq("color=blue,mark=triangle", "color=white,mark=o", "color=black,mark=star", "color=green,mark=square")).toList
     Seq(
       ("certainty", labeled, max)
-      , ("ignorance", pattsIg, first)
-      , ("decision-boundary", labeled, margin)
-      , ("knowledge-boundary", pattsIg, margin)
-    ).par foreach { case (name, set, f) => MLP().build(set).heatmap(name, testSet, f) }
+      //      , ("ignorance", pattsIg, first)
+      //      , ("decision-boundary", labeled, margin)
+      //      , ("knowledge-boundary", pattsIg, margin)
+    ) foreach { case (name, set, f) => MLP().build(set).heatmap(name, testSet, f, symbs) }
   }
+
 
   run()
 }
