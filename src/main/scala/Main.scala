@@ -27,9 +27,9 @@ object Main extends Arg with RHeatMap {
     val symbs = patts.groupBy(_.label).values.zip(formats).toList
     Seq(
       ("certainty", labeled, max)
-      //      , ("ignorance", pattsIg, first)
-      //      , ("decision-boundary", labeled, margin)
-      //      , ("knowledge-boundary", pattsIg, margin)
+      , ("ignorance", pattsIg, first)
+      , ("decision-boundary", labeled, margin)
+      , ("knowledge-boundary", pattsIg, margin)
     ) foreach { case (name, set, f) => MLP().build(set).heatmap(name, testSet, f, symbs) }
   }
 }
