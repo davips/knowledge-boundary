@@ -4,14 +4,13 @@ import traits.Arg
 import util.Datasets
 
 object Main extends Arg with RHeatMap {
+  lazy val (unlabeledStyleFore, unlabeledStyleBack) = "mark=text, mark options={solid, scale=1, ultra thick}" -> "gray, mark=*, mark options={solid, scale=2, ultra thick}"
+  lazy val (labeledStyleFore, labeledStyleBack) = "mark=text, mark options={solid, scale=1.1, ultra thick}" -> "white, mark=*, mark options={solid, scale=2.3, ultra thick}"
   lazy val formats = Seq(
-    ("color=teal,mark=text, text mark=\\bf{a}, mark options={solid, scale=1, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
-    ("color=blue,mark=text, text mark=\\bf{b}, mark options={solid, scale=1, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
-    ("color=yellow,mark=text, text mark=\\bf{?}, mark options={solid, scale=1, ultra thick}", "gray, mark=*, mark options={solid, scale=2.1, ultra thick}"),
-    ("color=red,mark=text, text mark=\\bf{c}, mark options={solid, scale=1, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
-    ("color=violet!75!white,mark=star,mark options={solid, scale=1.5, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
-    ("color=blue!75!white,mark=triangle,mark options={solid, scale=1.5, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
-    ("color=green!75!white,mark=o,mark options={solid, scale=1.5, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}")
+    ("color=teal, text mark=\\bf{a}, " + labeledStyleFore, labeledStyleBack),
+    ("color=blue, text mark=\\bf{b}, " + labeledStyleFore, labeledStyleBack),
+    ("color=yellow, text mark=\\bf{?}, " + unlabeledStyleFore, unlabeledStyleBack),
+    ("color=red, text mark=\\bf{c}, " + labeledStyleFore, labeledStyleBack)
   )
 
   run()
