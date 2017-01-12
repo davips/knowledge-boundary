@@ -5,10 +5,13 @@ import util.Datasets
 
 object Main extends Arg with RHeatMap {
   lazy val formats = Seq(
-    "color=blue,mark=triangle,mark options={solid, scale=1.5, ultra thick}",
-    "color=white,mark=o,mark options={solid, scale=1.5, ultra thick}",
-    "color=black,mark=text, text mark=\\bf{?}, mark options={solid, scale=1, ultra thick}",
-    "color=violet,mark=star,mark options={solid, scale=1.5, ultra thick}"
+    ("color=teal,mark=text, text mark=\\bf{a}, mark options={solid, scale=1, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
+    ("color=blue,mark=text, text mark=\\bf{b}, mark options={solid, scale=1, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
+    ("color=yellow,mark=text, text mark=\\bf{?}, mark options={solid, scale=1, ultra thick}", "gray, mark=*, mark options={solid, scale=2.1, ultra thick}"),
+    ("color=red,mark=text, text mark=\\bf{c}, mark options={solid, scale=1, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
+    ("color=violet!75!white,mark=star,mark options={solid, scale=1.5, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
+    ("color=blue!75!white,mark=triangle,mark options={solid, scale=1.5, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}"),
+    ("color=green!75!white,mark=o,mark options={solid, scale=1.5, ultra thick}", "white, mark=*, mark options={solid, scale=2.1, ultra thick}")
   )
 
   run()
@@ -26,10 +29,10 @@ object Main extends Arg with RHeatMap {
 
     val symbs = patts.groupBy(_.label).values.zip(formats).toList
     Seq(
-      ("certainty", labeled, max)
-      , ("ignorance", pattsIg, first)
-      , ("decision-boundary", labeled, margin)
-      , ("knowledge-boundary", pattsIg, margin)
-    ) foreach { case (name, set, f) => MLP().build(set).heatmap(name, testSet, f, symbs) }
+      //      ("certainty", labeled, max)
+      ("ignorance", pattsIg, first, "(255,100,200)")
+      , ("decision-boundary", labeled, margin, "(100,200,255)")
+      //            , ("knowledge-boundary", pattsIg, margin)
+    ) foreach { case (name, set, f, colormap) => MLP().build(set).heatmap(name, testSet, f, symbs, colormap) }
   }
 }

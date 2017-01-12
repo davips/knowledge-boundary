@@ -3,9 +3,10 @@
 \usepackage{xcolor}
 \pgfplotsset{compat=newest}
 \begin{document}
+\pgfplotsset{colormap={myblue}{rgb255(0cm)=(0,0,0); rgb255(1cm)=(100,200,255)}}
 \begin{tikzpicture}
-\begin{axis}[view={0}{90}, axis lines=none]
-    \addplot3[surf, mesh/rows=68, shader=flat] file[skip first] {/run/shm/knowledge-boundary.csv};
+\begin{axis}[colorbar, view={0}{90}, axis lines=none, point meta min=0, point meta max=1]
+    \addplot3[surf, mesh/rows=68, shader=flat] file[skip first] {/tmp/example.csv};
 \end{axis}
 %other plots
 \end{tikzpicture}
